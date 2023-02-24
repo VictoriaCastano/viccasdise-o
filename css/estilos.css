@@ -833,6 +833,8 @@ ul{
     color: black;
 }
 
+/* Media Queries - Menu Servicios */
+
 /* Tablet */
 @media screen and (max-width: 992px) {  
     .menu-servicio{
@@ -881,6 +883,8 @@ ul{
     padding: 2rem 3.5rem;
  }
 
+/* Media Queries - Servicio Servicios */
+
  /* Mobile */
 @media screen and (max-width: 768px){
     .btn-servicio{
@@ -888,69 +892,116 @@ ul{
      }
 }
 
+/* Termina Sobre mi*/
 
 
 
 
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
 
 
 
 
+/* PÁGINA CONTACTO */
 
 
+/* Comienza MAIN - Contacto*/
 
 
+.main-contacto{
+    height: 36rem;
+    background-image: url(../img/img-contacto-main2.png);
+    background-size: cover;
+    background-position-y:top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#texto-main-servicios{
+    padding: 0rem 2rem;
+    text-align: center;
+}
 
+.titulo-servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.titulo-main-contacto{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    color:#ffffff;
+    font-weight: 100;
+    line-height: 2.4rem;
+    margin: 1rem 0rem;
+}
 
+/* Media Queries - Main Contacto */
 
+/* Desktop */
+@media screen and (max-width: 1200px){
+    .titulo-main-servicios{
+        font-size: 1.9rem;
+        line-height: 2.2rem;
+    }
+}
 
+/* Tablet */
+@media screen and (min-width: 769px) and (max-width: 991px) { 
+    .titulo-main-contacto{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+}
 
-
-
-
-
-
-/* PAGINAS CONTACTO */
-
-
-    #main-contacto{
-        height: 600px;
-        background-image: url(../img/img-contacto-main2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 80px;
+/* Mobile */
+@media screen and (max-width: 768px){
+    .main-contacto{
+        background-image: url(../img/img-contacto-main-mobile.png);
     }
 
-    .texto-main-contacto{
-        padding: 0px 400px;
+    .titulo-main-contacto{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.7rem;
+        line-height: 2rem;
     }
+}
 
 
-    .parrafo-negro-contacto{
-        font-family: 'Montserrat', sans-serif;
-        color: black;
-        font-size: 14px;
-        letter-spacing: 2px;
-        line-height: 23px;
-        margin: 0px 20px 0px 40px;
-        } 
+/* Comienza PASOS - Contacto*/
 
-    .pasos-contacto{
-        display: flex;
-        justify-content: center;
-    }
+.columnas-parrafos{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
 
-    .section-gris-contacto{    
-        height: 400px;
-        background-color: #ededed;
-        padding: 60px 50px;
+.contacto{
+    padding: 4rem;
+}
 
-    }
+.col-contacto{
+    padding: 1rem 2rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
