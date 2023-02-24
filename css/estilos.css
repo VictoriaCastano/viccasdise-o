@@ -131,6 +131,7 @@ height: auto;
      
     .parrafo{
         font-size: 0.7rem;
+        line-height: 1rem;
     }
      
     .titulo-main{
@@ -154,6 +155,7 @@ height: auto;
     .parrafo{
         font-size: 0.7rem;
         letter-spacing: 0.25rem;
+        line-height: 1rem;
     }
      
     .titulo-main{
@@ -171,8 +173,9 @@ height: auto;
     }
      
     .parrafo{
-        font-size: 0.7rem;
-        letter-spacing: 0.2rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.15rem;
+        line-height: 1rem;
     }
      
     .titulo-main{
@@ -594,7 +597,7 @@ ul{
 
 .proceso-items{
     width: 22rem;
-    margin-right: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 .accordion-button:not(.collapsed){ 
@@ -613,49 +616,92 @@ ul{
     .proceso-items{
         width: 28rem;
         margin-right: 0rem;
+        margin: 1rem 2rem 4rem 2rem;
     }
 
 }
+/* Termina PROCESO - Sobre mi*/
 
 
+/* ---------------------------------------------------------*/
 
 
+/* Comienza VICCAS - Sobre mi */
 
 
+#texto-sobremi{
+    padding: 3.5rem;
+ }
 
-
-/*  Section - QuienEsViccas Sobre mi*/
-
-#viccas-sobremi{
-    height: 600px;
-    background-color: #808080;
-    display: flex;
-    align-items: center;
+.parrafo-negrita{
+    font-weight: 600;
 }
 
-.parrafo-blanco-left{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 16px;
-    letter-spacing: 3px;
-    line-height: 25px;
-    margin: 0px 100px 0px 20px;
-}
-
-.img-main-relative{
-    position: relative;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-}
-
-.img-main-absolute{
+.img-viccas-absolute{
     position: absolute;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
+ }
+
+#img-viccas1{
+    height: 20rem;
 }
+
+ .img-viccas-relative{
+    position:relative;
+ }
+
+ #img-viccas2{
+    height: 17rem;
+    margin-left: 14rem;
+ }
+
+ .col-img-viccas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .section-viccas{
+        padding: 0rem 1rem;
+    }
+
+    /* Mobile */
+@media screen and (max-width: 767px){
+  
+    .img-viccas-relative{
+        position:static;
+     }
+
+     .img-viccas-absolute{
+        position:static;
+     }
+
+    #img-viccas1{
+       padding-top:4rem ;
+       height: 20rem;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem;
+    }
+    
+     #img-viccas2{
+       padding-top:4rem ;
+       height: 20rem;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem;
+    }
+
+    #texto-sobremi{
+        padding: 2.5rem;
+     }
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -763,6 +809,13 @@ ul{
         align-items: center;
     
     }
+
+
+
+
+
+
+
 
 
 /* PAGINAS CONTACTO */
