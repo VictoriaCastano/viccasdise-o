@@ -391,7 +391,7 @@ height: auto;
 }
 
 
-/* Media Queries - Contacto */
+/* Media Queries - Contacto Index */
 
 /* Tablet - Desktop */
 @media screen and (min-width: 768px) and (max-width: 1024px) {    
@@ -476,6 +476,8 @@ ul{
     height: 3rem;
 }
 
+/* Media Queries - Footer */
+
 /* Tablet */
 @media screen and (max-width: 768px){    
     .texto-footer{
@@ -530,9 +532,9 @@ ul{
     }
 }
 
+/* Termina FOOTER */
 
-
-/* Termina FOOTER*/
+/* Termina INDEX*/
 
 
 
@@ -559,6 +561,8 @@ ul{
     justify-content: center;
     align-items: center;
 }
+
+/* Media Queries - Main Sobre mi */
 
 /* Tablet */
 @media screen and (max-width: 992px) {  
@@ -611,6 +615,8 @@ ul{
     justify-content:center
 }
 
+/* Media Queries - Proceso Sobre mi */
+
 /* Mobile */
 @media screen and (max-width: 767px){
     .proceso-items{
@@ -645,24 +651,26 @@ ul{
     height: 20rem;
 }
 
- .img-viccas-relative{
+.img-viccas-relative{
     position:relative;
- }
+}
 
- #img-viccas2{
+#img-viccas2{
     height: 17rem;
     margin-left: 14rem;
- }
+}
 
- .col-img-viccas{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.col-img-viccas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
-    .section-viccas{
-        padding: 0rem 1rem;
-    }
+.section-viccas{
+    padding: 0rem 1rem;
+}
+
+/* Media Queries - Viccas Sobre mi */
 
     /* Mobile */
 @media screen and (max-width: 767px){
@@ -682,7 +690,7 @@ ul{
        margin-right: 0.5rem;
     }
     
-     #img-viccas2{
+    #img-viccas2{
        padding-top:4rem ;
        height: 20rem;
        margin-left: 0.5rem;
@@ -691,6 +699,192 @@ ul{
 
     #texto-sobremi{
         padding: 2.5rem;
+     }
+}
+/* Termina Sobre mi*/
+
+
+
+
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+
+
+
+
+/* PÁGINA SERVICIOS */
+
+
+/* Comienza MAIN - Servicios*/
+
+
+.main-servicios{
+    height: 36rem;
+    background-image: url(../img/img-servicio-main.png);
+    background-size: cover;
+    background-position-y:top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-main-servicios{
+    padding: 0rem 2rem;
+}
+
+.titulo-servicios{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.titulo-main-servicios{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: 100;
+    line-height: 2.4rem;
+    margin: 2.6rem 0rem;
+}
+
+/* Media Queries - Main Servicios */
+
+/* Desktop */
+@media screen and (max-width: 1200px){
+    .titulo-main-servicios{
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 769px) and (max-width: 991px) {  
+    .main-servicios{
+        background-position-y:bottom;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-main-servicios{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.6rem;
+        line-height: 1.95rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px){
+    .main-servicios{
+        background-position-y:bottom;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        padding-top: 4rem;
+    }
+
+    #texto-main-servicios{
+        text-align: center;
+    }
+
+    .main-servicios{
+        background-image: url(../img/img-servicio-main-mobile.png);
+    }
+
+    .titulo-main-servicios{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.55rem;
+        line-height: 1.9rem;
+    }
+}
+
+/* Comienza MENU - Servicios*/
+
+
+ul{
+    padding: 0rem;
+}
+
+.menu-servicios{
+    height: auto ;
+    padding: 3rem 0rem 2rem 0rem;
+}
+
+.texto-footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.menu-servicio{
+    display: inline-block;
+    padding: 0rem 4rem;  
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.a-menu-servicios{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+/* Tablet */
+@media screen and (max-width: 992px) {  
+    .menu-servicio{
+        font-size: 16px; 
+        padding: 0rem 3rem;     
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px){
+    .menu-servicios{
+        display: none;
+    }  
+}
+
+
+/* Comienza SERVICIO - Servicios*/
+
+.btn-servicio{
+   margin: 3rem 0rem;
+}
+
+#img-servicio{
+    width: 25rem;
+    margin: 0rem 4rem;
+    padding: 1.2rem;
+ }
+
+ .texto-servicio{
+    padding: 0rem 2rem;
+ }
+
+ .main2{
+    background-color:#ffffff;
+    margin: 0rem;
+    padding: 1rem 0rem;
+}
+
+.main1{
+    background-color:#ededed;
+    margin: 0rem;
+    padding: 1rem 0rem;
+}
+
+#texto-servicios{
+    padding: 2rem 3.5rem;
+ }
+
+ /* Mobile */
+@media screen and (max-width: 768px){
+    .btn-servicio{
+        margin: 2rem 0rem 0rem 0rem;
      }
 }
 
@@ -709,106 +903,6 @@ ul{
 
 
 
-
-/* PAGINAS SERVICIOS */
-
-#main-servicios{
-    height: 600px;
-    background-image: url(../img/img-servicio-main.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-/*  Section - MENU Servicios */
-
-#div_menu{
-    display: flex;
-    justify-content: center;
-    height: 100px;
-}
-
-.lista_menu{
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-}
-
-.menu{
-    display: inline-block;
-    padding: 0px 100px;  
-}
-
-.a_menu{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/*  Section - Servicio Servicios*/
-
-.titulo-right{
-    padding-right: 200px;
-}
-
-.titulo-negro-right{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
-    color: black;
-    font-weight: 100;
-    line-height: 30px;
-    } 
-
-
-    .img-servicios{
-        width: 50vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-        
-    .img-servicio{
-        height: 500px;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .texto-servicio{
-        padding:40px 100px 0px 40px ;
-        
-    }
-
-    #section-servicio{
-        height: 600px;
-        background-color: white;
-        display: flex;
-        align-items: center;
-    
-    }
-
-    #section-servicio1{
-        height: 600px;
-        background-color: #ededed;
-        display: flex;
-        align-items: center;
-    
-    }
-
-    #section-servicio3{
-        height: 600px;
-        background-color: #ededed;
-        display: flex;
-        align-items: center;
-    
-    }
 
 
 
